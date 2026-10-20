@@ -1,0 +1,35 @@
+# Python 虚拟环境(体积大、可由 requirements 重建)
+.venv/
+venv/
+env/
+
+# 离线安装包(torch CUDA wheel,约 2GB)
+wheels/
+
+# 数据集(体积大,按 README 说明自行下载)
+data/raw/
+data/processed/
+archive.zip
+*.zip
+*.rar
+*.7z
+
+# 模型权重(体积大,可重新训练得到)
+outputs/checkpoints/
+*.pth
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.log
+*.tmp

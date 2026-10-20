@@ -1,0 +1,490 @@
+{
+  "report": "              precision    recall  f1-score   support\n\n          玻璃     0.8850    0.8634    0.8741       205\n          厨余     0.9802    0.9612    0.9706       103\n      金属/易拉罐     0.6504    0.9639    0.7767        83\n       纸张/纸盒     0.9774    0.8439    0.9058       205\n          塑料     0.7059    0.6667    0.6857        90\n\n    accuracy                         0.8586       686\n   macro avg     0.8398    0.8598    0.8426       686\nweighted avg     0.8750    0.8586    0.8615       686\n",
+  "confused": [
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\brown-glass172.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\brown-glass196.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\brown-glass242.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\brown-glass25.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\brown-glass251.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\brown-glass274.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\green-glass158.jpg",
+      "true": "glass",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\green-glass164.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\green-glass235.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\green-glass68.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\green-glass80.jpg",
+      "true": "glass",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass102.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass115.jpg",
+      "true": "glass",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass127.jpg",
+      "true": "glass",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass166.jpg",
+      "true": "glass",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass175.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass189.jpg",
+      "true": "glass",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass212.jpg",
+      "true": "glass",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass271.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass283.jpg",
+      "true": "glass",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass35.jpg",
+      "true": "glass",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass403.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass516.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass53.jpg",
+      "true": "glass",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass631.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass65.jpg",
+      "true": "glass",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass718.jpg",
+      "true": "glass",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\glass\\white-glass93.jpg",
+      "true": "glass",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\kitchen\\biological131.jpg",
+      "true": "kitchen",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\kitchen\\biological582.jpg",
+      "true": "kitchen",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\kitchen\\biological73.jpg",
+      "true": "kitchen",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\kitchen\\biological924.jpg",
+      "true": "kitchen",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\metal\\metal24.jpg",
+      "true": "metal",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\metal\\metal66.jpg",
+      "true": "metal",
+      "pred": "paper"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\metal\\metal71.jpg",
+      "true": "metal",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\cardboard176.jpg",
+      "true": "paper",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\cardboard192.jpg",
+      "true": "paper",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\cardboard212.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\cardboard315.jpg",
+      "true": "paper",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\cardboard523.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\cardboard776.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\cardboard782.jpg",
+      "true": "paper",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper1010.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper1065.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper11.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper16.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper21.jpg",
+      "true": "paper",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper309.jpg",
+      "true": "paper",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper469.jpg",
+      "true": "paper",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper481.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper493.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper515.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper534.jpg",
+      "true": "paper",
+      "pred": "kitchen"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper551.jpg",
+      "true": "paper",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper579.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper58.jpg",
+      "true": "paper",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper6.jpg",
+      "true": "paper",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper701.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper711.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper735.jpg",
+      "true": "paper",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper745.jpg",
+      "true": "paper",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper814.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper844.jpg",
+      "true": "paper",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper914.jpg",
+      "true": "paper",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper953.jpg",
+      "true": "paper",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper980.jpg",
+      "true": "paper",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\paper\\paper982.jpg",
+      "true": "paper",
+      "pred": "plastic"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic102.jpg",
+      "true": "plastic",
+      "pred": "kitchen"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic12.jpg",
+      "true": "plastic",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic188.jpg",
+      "true": "plastic",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic191.jpg",
+      "true": "plastic",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic192.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic200.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic241.jpg",
+      "true": "plastic",
+      "pred": "paper"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic248.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic341.jpg",
+      "true": "plastic",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic351.jpg",
+      "true": "plastic",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic365.jpg",
+      "true": "plastic",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic415.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic431.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic44.jpg",
+      "true": "plastic",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic485.jpg",
+      "true": "plastic",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic600.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic643.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic656.jpg",
+      "true": "plastic",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic679.jpg",
+      "true": "plastic",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic689.jpg",
+      "true": "plastic",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic699.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic746.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic779.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic8.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic802.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic846.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic872.jpg",
+      "true": "plastic",
+      "pred": "metal"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic880.jpg",
+      "true": "plastic",
+      "pred": "paper"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic893.jpg",
+      "true": "plastic",
+      "pred": "paper"
+    },
+    {
+      "path": "E:\\Work_Area\\AIGC\\garbage-classifier\\data\\processed\\test\\plastic\\plastic898.jpg",
+      "true": "plastic",
+      "pred": "glass"
+    }
+  ]
+}

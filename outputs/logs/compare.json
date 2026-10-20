@@ -1,0 +1,107 @@
+{
+  "cnn": {
+    "best_val_acc": 0.7892441860465116,
+    "minutes": 36.4,
+    "epochs": 60,
+    "test_accuracy": 0.742,
+    "macro_f1": 0.7367,
+    "per_class": {
+      "玻璃": {
+        "precision": 0.8766,
+        "recall": 0.6585,
+        "f1": 0.7521
+      },
+      "厨余": {
+        "precision": 0.9135,
+        "recall": 0.9223,
+        "f1": 0.9179
+      },
+      "金属/易拉罐": {
+        "precision": 0.4676,
+        "recall": 0.7831,
+        "f1": 0.5856
+      },
+      "纸张/纸盒": {
+        "precision": 0.9286,
+        "recall": 0.6976,
+        "f1": 0.7967
+      },
+      "塑料": {
+        "precision": 0.5259,
+        "recall": 0.7889,
+        "f1": 0.6311
+      }
+    },
+    "wrong": 177
+  },
+  "resnet18": {
+    "best_val_acc": 0.8982558139534884,
+    "minutes": 13.4,
+    "epochs": 30,
+    "test_accuracy": 0.8586,
+    "macro_f1": 0.8426,
+    "per_class": {
+      "玻璃": {
+        "precision": 0.885,
+        "recall": 0.8634,
+        "f1": 0.8741
+      },
+      "厨余": {
+        "precision": 0.9802,
+        "recall": 0.9612,
+        "f1": 0.9706
+      },
+      "金属/易拉罐": {
+        "precision": 0.6504,
+        "recall": 0.9639,
+        "f1": 0.7767
+      },
+      "纸张/纸盒": {
+        "precision": 0.9774,
+        "recall": 0.8439,
+        "f1": 0.9058
+      },
+      "塑料": {
+        "precision": 0.7059,
+        "recall": 0.6667,
+        "f1": 0.6857
+      }
+    },
+    "wrong": 97
+  },
+  "resnet18_unfrozen": {
+    "best_val_acc": 0.9593023255813954,
+    "minutes": 10.0,
+    "epochs": 20,
+    "test_accuracy": 0.9519,
+    "macro_f1": 0.9434,
+    "per_class": {
+      "玻璃": {
+        "precision": 0.9387,
+        "recall": 0.9707,
+        "f1": 0.9544
+      },
+      "厨余": {
+        "precision": 0.9902,
+        "recall": 0.9806,
+        "f1": 0.9854
+      },
+      "金属/易拉罐": {
+        "precision": 0.8889,
+        "recall": 0.9639,
+        "f1": 0.9249
+      },
+      "纸张/纸盒": {
+        "precision": 0.9851,
+        "recall": 0.9659,
+        "f1": 0.9754
+      },
+      "塑料": {
+        "precision": 0.9259,
+        "recall": 0.8333,
+        "f1": 0.8772
+      }
+    },
+    "wrong": 33
+  }
+}
